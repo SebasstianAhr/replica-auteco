@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Oswald";
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.1rem;
+  position: absolute;
+}
+
+.top-menu {
+  width: 100%;
+  max-width: 1800px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-top-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.button-nav-top {
+  background-color: red;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 0.6rem;
+}
+
+nav {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.div-img-logo {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo {
+  height: auto;
+  width: 100% !important;
+  max-width: 129px;
+  cursor: pointer;
+}
+
+.div-menu {
+  width: 75.333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  cursor: pointer;
+}
+
+/*estilos de el main*/
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.div-img-main {
+  width: 100%;
+}
+
+.img-main {
+  width: 100%;
+}
